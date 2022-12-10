@@ -41,4 +41,4 @@ loading the page the user wanted to go to, the page that loads is the sign-up pa
 
 ## Read the Code
 
-[SimpleSiteBeforeSignup.js](https://scissors.appspan.net/SimpleSiteBeforeSignup/SimpleSiteBeforeSignup.js)
+[SampleSiteBeforeSignup.js](https://scissors.appspan.net/SampleSiteBeforeSignup/SampleSiteBeforeSignup.js)
