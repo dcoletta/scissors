@@ -15,7 +15,7 @@ In your site settings **Code Inside Footer** section, put the following code:
 Add the following before the `<script src=>` tag:
 
 ```
-// <script>
-// const MenuHighlighter = {backgroundColor: "#FF0000"};
-// </script>
+<script>
+const MenuHighlighter = {backgroundColor: "#FF0000"};
+</script>
 ```
