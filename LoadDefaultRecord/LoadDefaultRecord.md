@@ -29,7 +29,7 @@ const LoadDefaultRecord = {
 
 ## What It Does
 
-When the page loads, it looks to see if there is a record Id specified on the URL, which could
+When the page loads, this script looks to see if there is a record Id specified on the URL, which could
 either be in the `?recordId=` format or in the `/r/rec` format. If there is no record Id in either
 of these formats, then it changes the URL to include the value of `defaultRecordId` and reloads
 the page by calling `history.replaceState()` so that there is not an extra entry in the history.
