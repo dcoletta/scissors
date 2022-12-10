@@ -1,3 +1,3 @@
 # Table of contents
 
-* [MenuHighlighter.js](README.md)
+* [MenuHighlighter.js](MenuHighlighter/MenuHighlighter.md)
