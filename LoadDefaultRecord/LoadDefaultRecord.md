@@ -1,9 +1,8 @@
 ---
 description: >-
-  LoadDefaultRecord is useful when you have a List Block and a List Details
-  block on the same page, and you want to make sure that the List Details block displays
-  a default record from the table when the page is loaded without a specific record ID
-  on the URL.
+  When you have a List Block and a List Details
+  block on the same page, LoadDefaultRecord ensures that the List Details block displays
+  a default record when no record ID is specified on the URL.
 ---
 
 # LoadDefaultRecord.js
