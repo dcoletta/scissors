@@ -4,7 +4,7 @@ var defaultRecordId = "";
 // Overrides
 if (typeof LoadDefaultRecord === "object") {
     if (LoadDefaultRecord.hasOwnProperty('defaultRecordId')) {
-        defaultRecordId = SampleSiteBeforeSignup.defaultRecordId;
+        defaultRecordId = LoadDefaultRecord.defaultRecordId;
     }
 }
 
