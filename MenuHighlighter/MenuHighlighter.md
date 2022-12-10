@@ -19,3 +19,7 @@ Add the following before the `<script src=>` tag:
 const MenuHighlighter = {backgroundColor: "#FF0000"};
 </script>
 ```
+
+# Read the Code
+
+[MenuHighlighter.js](https://scissors.appspan.net/MenuHighlighter/MenuHighlighter.js)
