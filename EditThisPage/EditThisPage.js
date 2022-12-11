@@ -22,33 +22,23 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 */
 
-// defaults
-var backgroundColor = "#C4B8DA";
+// Defaults
+var superUserEmail = "";
 
-// overrides
-if (typeof MenuHighlighter === "object") {
-  if (MenuHighlighter.hasOwnProperty('backgroundColor')) {
-    backgroundColor = MenuHighlighter.backgroundColor;
-  }
+// Overrides
+if (typeof EditThisPage === "object") {
+    if (EditThisPage.hasOwnProperty('superUserEmail')) {
+        superUserEmail = EditThisPage.superUserEmail;
+    }
 }
 
-// code
-const nav = $("nav");
-const currentSlug = document.location.pathname;
-const anchors = nav.find("a");
-// For all the anchors in the nav bar
-anchors.each(function() {
-  const anchor = $(this);
-  const anchorHref = $(this).attr('href');
-  // Skip the link to the home page
-  if (anchorHref === "/") {
-    return true;
-  }
-  // Otherwise, if the current slug starts with this link,
-  // apply some CSS to it.
-  if (currentSlug.startsWith(anchorHref)) {
-    anchor.css("background-color", backgroundColor);
-    return false;
-  }
-  return true;
-});
+// Code
+function editThisPage() {
+    const appId = document.querySelectorAll("div[data-appid]")[0].attributes['data-appid'].value;
+    const pageId = document.querySelectorAll("div[data-appid]")[0].attributes['data-pageid'].value
+    const url = `https://studio.softr.io/applications/${appId}/pages/${pageId}`
+    window.open(url);
+}
+if (typeof logged_in_user === 'object' && logged_in_user.softr_user_email === superUserEmail) {
+    document.querySelectorAll('input.edit-this-page')[0].remove();
+}
