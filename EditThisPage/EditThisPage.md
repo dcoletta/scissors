@@ -8,7 +8,7 @@ description: >-
 
 ## What It Looks Like
 
-<figure><img src="../.gitbook/assets/f91410d5c7f08c1f191486cfb68c6c692fc3a9ff.png" alt="A screen shot of a website that is displaying the Edit this page button."><figcaption><p>A screen shot of a website that is displaying the Edit this page button.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/f91410d5c7f08c1f191486cfb68c6c692fc3a9ff.png" alt="A screen shot of a site that uses the &#x22;Edit this page&#x22; script toi add a button that lets you edit the page in the Softr studio."><figcaption><p>A screen shot of a site that uses the "Edit this page" script toi add a button that lets you edit the page in the Softr studio.</p></figcaption></figure>
 
 ## How To Use It
 
