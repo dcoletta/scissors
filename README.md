@@ -34,7 +34,7 @@ Fixes and enhancements to an existing snippet are also welcome! Again, you can c
 Here's a checklist for what a good pull request (PR) will have:
 -  a folder at the top level of the repo with the name of your script in PascalCase, such as `DoImportantThing`. (Start the script name with a verb.)
 - In the `DoImportantThing` folder, a `DoImportantThing.js` file that contains your snippet code. 
-- In the JavaScript code in your `DoImportantThing.js` file, any string that a user might need to customize should be overridable. See [SampleSiteBeforeSignup.md](https://github.com/dcoletta/scissors/blob/main/SampleSiteBeforeSignup/SampleSiteBeforeSignup.md)  for example conventions.
+- In the JavaScript code in your `DoImportantThing.js` file, any string that a user might need to customize should be overridable. See [SampleSiteBeforeSignup.js](https://github.com/dcoletta/scissors/blob/main/SampleSiteBeforeSignup/SampleSiteBeforeSignup.js) for example conventions.
 - In the `DoImportantthing` folder, a `DoImportantThing.md` file that contains the documentation for your snippet. See `SampleSiteBeforeSignup.md` for conventions. If it would be helpful for your documentation to include a screenshot of what visual effect the snippet will have, see [MenuHighlighter.md](https://github.com/dcoletta/scissors/blob/main/MenuHighlighter/MenuHighlighter.md) for conventions on how to include that in the doc page.
 - A new line in [SUMMARY.md](https://github.com/dcoletta/scissors/blob/main/SUMMARY.md) with a link to your snippet.
 
