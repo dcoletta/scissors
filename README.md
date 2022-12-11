@@ -35,8 +35,16 @@ Here's a checklist for what a good pull request (PR) will have:
 -  a folder at the top level of the repo with the name of your script in PascalCase, such as `DoImportantThing`. (Start the script name with a verb.)
 - In the `DoImportantThing` folder, a `DoImportantThing.js` file that contains your snippet code. 
 - In the JavaScript code in your `DoImportantThing.js` file, any string that a user might need to customize should be overridable. See [SampleSiteBeforeSignup.js](https://github.com/dcoletta/scissors/blob/main/SampleSiteBeforeSignup/SampleSiteBeforeSignup.js) for example conventions.
+- At the top of the JavaScript code, please insert a copy of the MIT license inside a comment block.
 - In the `DoImportantthing` folder, a `DoImportantThing.md` file that contains the documentation for your snippet. See `SampleSiteBeforeSignup.md` for conventions. If it would be helpful for your documentation to include a screenshot of what visual effect the snippet will have, see [MenuHighlighter.md](https://github.com/dcoletta/scissors/blob/main/MenuHighlighter/MenuHighlighter.md) for conventions on how to include that in the doc page.
 - A new line in [SUMMARY.md](https://github.com/dcoletta/scissors/blob/main/SUMMARY.md) with a link to your snippet.
+
+### CSS and HTML in your snippet
+
+Some code snippets require accompanying CSS and/or HTML. There are many different techniques for loading
+CSS and HTML by reference, and you are welcome to add CSS and HTML files to your folder to be loaded by reference.
+The only strong suggestion I will make here is that it should be possible for users of your snippet to be able to automatically pick up the latest version without having to change the Softr project that uses it. This means
+that it is discouraged for the instructions to include something like "please put this HTML or CSS into your project." Instead, prefer loading CSS with a `<link>` tag or including it as a `style` attribute of HTML, and prefer loading HTML into the DOM with code in your JavaScript, such as `document.createElement()` and `element.appendChild()`.
 
 ## Why does Scissors exist?
 I decided to try to get more organized about custom code snippets. For a while I was putting my custom code snippets in [unlock-softr.com](http://unlock-softr.com/), and that was way better than nothing. But I wanted some things that were going to be hard to do there:
