@@ -24,11 +24,19 @@ SOFTWARE.
 
 // Defaults
 var superUserEmail = "";
+var buttonTtile = "Edit this page";
+var buttonStyle = "position: fixed; z-index: 9999999; left: 20px; bottom: 60px";
 
 // Overrides
 if (typeof EditThisPage === "object") {
     if (EditThisPage.hasOwnProperty('superUserEmail')) {
         superUserEmail = EditThisPage.superUserEmail;
+    }
+    if (EditThisPage.hasOwnProperty('buttonTitle')) {
+        superUserEmail = EditThisPage.buttonTitle;
+    }
+    if (EditThisPage.hasOwnProperty('buttonStyle')) {
+        superUserEmail = EditThisPage.buttonStyle;
     }
 }
 
@@ -40,5 +48,12 @@ function editThisPage() {
     window.open(url);
 }
 if (typeof logged_in_user === 'object' && logged_in_user.softr_user_email === superUserEmail) {
-    document.querySelectorAll('input.edit-this-page')[0].remove();
+    const buttonNode = document.createElement("input");
+    // <input style="position: fixed; z-index: 9999999; left: 20px; bottom: 60px" 
+    //  type="button" value="Edit this page" onclick='editThisPage()')">
+    buttonNode.setAttribute("style", buttonStyle);
+    buttonNode.setAttribute("type", "button");
+    buttonNode.setAttribute("value", buttonTtile);
+    buttonNode.setAttribute("onClick", "editThisPage()");
+    document.body.appendChild(buttonNode);
 }
