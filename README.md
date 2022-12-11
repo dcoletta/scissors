@@ -36,7 +36,7 @@ Here's a checklist for what a good pull request (PR) will have:
 - In the `DoImportantThing` folder, a `DoImportantThing.js` file that contains your snippet code. 
 - In the JavaScript code in your `DoImportantThing.js` file, any string that a user might need to customize should be overridable. See [SampleSiteBeforeSignup.md](https://github.com/dcoletta/scissors/blob/main/SampleSiteBeforeSignup/SampleSiteBeforeSignup.md)  for example conventions.
 - In the `DoImportantthing` folder, a `DoImportantThing.md` file that contains the documentation for your snippet. See `SampleSiteBeforeSignup.md` for conventions. If it would be helpful for your documentation to include a screenshot of what visual effect the snippet will have, see [MenuHighlighter.md](https://github.com/dcoletta/scissors/blob/main/MenuHighlighter/MenuHighlighter.md) for conventions on how to include that in the doc page.
-- Add your snippet's documentation to [SUMMARY.md](https://github.com/dcoletta/scissors/blob/main/SUMMARY.md).
+- A new line in [SUMMARY.md](https://github.com/dcoletta/scissors/blob/main/SUMMARY.md) with a link to your snippet.
 
 ## Why does Scissors exist?
 I decided to try to get more organized about custom code snippets. For a while I was putting my custom code snippets in [unlock-softr.com](http://unlock-softr.com/), and that was way better than nothing. But I wanted some things that were going to be hard to do there:
