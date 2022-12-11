@@ -48,3 +48,11 @@ I decided to try to get more organized about custom code snippets. For a while I
 I’m calling it ![:scissors:](https://a.slack-edge.com/production-standard-emoji-assets/14.0/apple-medium/2702-fe0f@2x.png) Scissors since it’s all about code snippets.
 
 In case you’re curious, the tools I used to build this are Github to store the snippets, CloudFlare CDN to publish the code snippets for inclusion into Softr pages, and Gitbook to make the documentation.
+
+## What am I agreeing to by using this code?
+
+Your use of code and documentation in this repository is governed by the [MIT License](https://github.com/dcoletta/scissors/blob/main/LICENSE). 
+
+## What am I agreeing to by contributing to this repository?
+
+By submitting a pull request, issue, or any other content to this repository, you agree that your contributions are governed by the [MIT License](https://github.com/dcoletta/scissors/blob/main/LICENSE) and represent that there are no claims on your contributions which would conflict with that license. 
