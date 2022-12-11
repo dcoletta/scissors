@@ -8,6 +8,7 @@ if (typeof LoadDefaultRecord === "object") {
     }
 }
 
+// Code
 if (defaultRecordId === "") {
     console.log("LoadDefaultRecord script requires a defaultRecordId, stopping");
 } else {

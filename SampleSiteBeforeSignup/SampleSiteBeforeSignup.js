@@ -20,6 +20,7 @@ if (typeof SampleSiteBeforeSignup === "object") {
     }
   }
 
+// Code
 function isLoggedIn() {
     return (typeof(logged_in_user) === "object");
 }
