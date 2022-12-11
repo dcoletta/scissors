@@ -8,7 +8,7 @@ description: >-
 
 ## What It Looks Like
 
-![image](https://community.softr.io/uploads/db9110/optimized/1X/f91410d5c7f08c1f191486cfb68c6c692fc3a9ff\_2\_464x500.png)
+<figure><img src="../.gitbook/assets/f91410d5c7f08c1f191486cfb68c6c692fc3a9ff.png" alt="A screen shot of a website that is displaying the Edit this page button."><figcaption><p>A screen shot of a website that is displaying the Edit this page button.</p></figcaption></figure>
 
 ## How To Use It
 
