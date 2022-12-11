@@ -1,20 +1,14 @@
-/*
-    Name: MenuHighlighter.js
-    What it does: adds a background highlight to the selected link in your app header
-    How to use: add <script src="https://scissors.appspan.net/MenuHighlighter/MenuHighlighter.js"> 
-                to your site's Code Inside Footer
-    How to customize: before the above script tag, add JS similar to:
-    <script>
-     const MenuHighlighter = {backgroundColor: "#FF0000"};
-    </script>
-*/
+// defaults
 var backgroundColor = "#C4B8DA";
+
+// overrides
 if (typeof MenuHighlighter === "object") {
   if (MenuHighlighter.hasOwnProperty('backgroundColor')) {
     backgroundColor = MenuHighlighter.backgroundColor;
   }
 }
 
+// code
 const nav = $("nav");
 const currentSlug = document.location.pathname;
 const anchors = nav.find("a");
