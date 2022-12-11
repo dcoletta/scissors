@@ -43,3 +43,5 @@ When the page loads, this script looks to see if the super user account is logge
 ## Read the Code
 
 [EditThisPage.js](https://scissors.appspan.net/EditThisPage/EditThisPage.js)
+
+{% embed url="https://raw.githubusercontent.com/dcoletta/scissors/main/EditThisPage/EditThisPage.js" %}
