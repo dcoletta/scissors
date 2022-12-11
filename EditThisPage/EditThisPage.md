@@ -32,6 +32,10 @@ const EditThisPage = {
 </script>
 ```
 
+{% hint style="info" %}
+You don't need to supply all these override values, just the ones you want to change from the default values.
+{% endhint %}
+
 ## What It Does
 
 When the page loads, this script looks to see if the super user account is logged in. If it is, it creates an "Edit this page' button and adds it to the page. When you click the button, it opens the page editor for this page in the Softr studio, in another browser tab.
