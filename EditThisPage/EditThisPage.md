@@ -8,7 +8,7 @@ description: >-
 
 ## What It Looks Like
 
-<figure><img src="../.gitbook/assets/f91410d5c7f08c1f191486cfb68c6c692fc3a9ff.png" alt="A screen shot of a site that uses the &#x22;Edit this page&#x22; script to add a button that lets you edit the page in the Softr studio."><figcaption><p>A screen shot of a site that uses the "Edit this page" script to add a button that lets you edit the page in the Softr studio.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/f91410d5c7f08c1f191486cfb68c6c692fc3a9ff.png" alt="A screen shot of a site that uses the &#x22;Edit this page&#x22; script toi add a button that lets you edit the page in the Softr studio."><figcaption><p>A screen shot of a site that uses the "Edit this page" script toi add a button that lets you edit the page in the Softr studio.</p></figcaption></figure>
 
 ## How To Use It
 
@@ -38,8 +38,10 @@ You don't need to supply all these override values, just the ones you want to ch
 
 ## What It Does
 
-When the page loads, this script looks to see if the super user account is logged in. If it is, it creates an "Edit this page" button and adds it to the page. When you click the button, it opens the page editor for this page in the Softr studio, in another browser tab.
+When the page loads, this script looks to see if the super user account is logged in. If it is, it creates an "Edit this page' button and adds it to the page. When you click the button, it opens the page editor for this page in the Softr studio, in another browser tab.
 
 ## Read the Code
+
+[EditThisPage.js](https://scissors.appspan.net/EditThisPage/EditThisPage.js)
 
 {% embed url="https://github.com/dcoletta/scissors/blob/main/EditThisPage/EditThisPage.js" %}
