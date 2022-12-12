@@ -28,7 +28,7 @@ Thank you for finding a bug! Please head over to the [issues](https://github.com
 
 ## How to contribute
 
-See [CONTIRBUTING.md](./CONTRIBUTING.md).
+See [CONTRIBUTING.md](./CONTRIBUTING.md).
 
 ## Why does Scissors exist?
 
@@ -45,4 +45,10 @@ In case you’re curious, the tools I used to build this are Github to store the
 ## What am I agreeing to by using this code?
 
 Your use of code and documentation in this repository is governed by the [MIT License](LICENSE/).
+
+## Can I depend on this service?
+
+That's a reasonable question, but I can't answer it. Instead, if you want to use this service
+in the way it's intended to be used, but you're concerned about its long-term existence, then the 
+best thing you can do is make your own. Here's how: [FORKING.md](./FORKING.md).
 
